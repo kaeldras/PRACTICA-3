@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  border: 2px solid blue;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+.equipo {
+  border: 2px solid #333;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.equipo h3 {
+  margin-top: 0;
+}
+
+.equipos-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.actions {
+  margin-top: 20px;
+}
+
+.actions button {
+  margin-right: 10px;
+}
+
+#generarBtn {
+  background-color: white;
+  color: blue;
+  border: 2px solid blue;
+}
